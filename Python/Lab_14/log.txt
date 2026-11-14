@@ -1,0 +1,17 @@
+# **Lab 14 – Library Book Management System**
+
+### **1. Thinking Process** ###
+
+1. First, I thought about creating a library program where books can be displayed, added, categorized, and analyzed.
+2. I used a list of tuples to store book details such as title, author, year, and category.
+3. I used sets for `library_categories` and `student_wishlist` because they are useful for matching and comparing categories.
+4. I created a menu system so the user can perform different operations without restarting the program.
+5. I used `if-elif-else` statements to handle each menu option clearly and efficiently.
+
+### **2. Errors Faced While Writing the Code** ###
+
+1. Initially, I was confused about how to store book information in a structured format using tuples.
+2. I had difficulty understanding how to validate the publication year before adding a book.
+3. I was confused about the difference between `set` operations like union, intersection, and difference.
+4. I faced some issues while writing the gap analysis logic, especially in calculating items already in stock versus items needed.
+5. I needed time to understand how to properly exit the program using the `break` statement.

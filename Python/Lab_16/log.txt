@@ -1,0 +1,17 @@
+# **Lab 16 – Simple Utility Calculator**
+
+### **1. Thinking Process** ###
+
+1. First, I thought about building a simple calculator with basic arithmetic operations and history tracking.
+2. I created separate functions for addition, subtraction, multiplication, division, and power operations.
+3. I used a `while` loop so the calculator menu keeps running until the user chooses to exit.
+4. I stored each performed calculation in a `history` list so previous operations can be displayed later.
+5. I used `if-elif-else` conditions to handle different operations and invalid choices properly.
+
+### **2. Errors Faced While Writing the Code** ###
+
+1. Initially, I was confused about how to return different results for each calculator operation.
+2. I faced some difficulty in handling division by zero without crashing the program.
+3. I had to think carefully about how to manage both arithmetic results and their formatted history records.
+4. I was confused about how to keep the menu active and continue after displaying history.
+5. I needed help understanding how to exit the program neatly using the `break` statement.

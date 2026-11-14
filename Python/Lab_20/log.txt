@@ -1,0 +1,17 @@
+# **Lab 20 – Daily Log Book Management System**
+
+### **1. Thinking Process** ###
+
+1. First, I thought about creating a simple menu-driven program where the user can add a log entry, display all entries, or exit the program.
+2. I decided to use the `open()` function with append (`a`) mode so that new entries can be added without deleting the previous data.
+3. I used the `os` module to check whether the log file already exists or not.
+4. I used a `while` loop so that the menu keeps appearing until the user selects the Exit option.
+5. I also decided to use `try-except` to handle errors and make the program run smoothly.
+
+### **2. Errors Faced While Writing the Code** ###
+
+1. Initially, mujhe file handling mein append (`a`) aur read (`r`) mode ka difference samajhne mein confusion ho raha tha.
+2. I was confused about how to check whether the file exists before displaying its contents. Later, I used `os.path.exists()`.
+3. While writing the menu, I faced some confusion in using `if-elif-else` conditions for different choices.
+4. Mujhe `try-except` block ka proper use samajhne mein difficulty hui, especially while handling file errors.
+5. Initially, I was confused about how to stop the infinite `while` loop. Later, I used the `break` statement when the user selects option 3.

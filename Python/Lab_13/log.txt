@@ -1,0 +1,17 @@
+# **Lab 13 – Inventory Control System**
+
+### **1. Thinking Process** ###
+
+1. First, I thought about making a menu-based program to manage a list of inventory items.
+2. I decided to use a Python list to store items because adding, removing, and viewing items is simple with list operations.
+3. I used a `while` loop so the menu keeps running until the user exits the program.
+4. I used different `if-elif-else` conditions for add, remove, view, sort, and exit choices.
+5. I also used the `title()` method to make item names look neat and consistent.
+
+### **2. Errors Faced While Writing the Code** ###
+
+1. At first, I was confused about how to remove an item from the inventory list correctly.
+2. I had to be careful while using `inventory.remove()` because the item name had to match exactly.
+3. I faced some difficulty while sorting the list, because it changed the order of the items permanently.
+4. I was confused about how to display the inventory items in numbered order using a `for` loop.
+5. Initially, I needed help understanding how to stop the loop properly with the Exit option.

@@ -1,0 +1,17 @@
+# **Lab 15 – Student Information Management System**
+
+### **1. Thinking Process** ###
+
+1. First, I thought about making a student database program using a dictionary because each student record can be accessed by their roll number.
+2. I used nested dictionaries to store details like name, branch, semester, and marks for each student.
+3. I created multiple menu options to view, search, register, update, view academic performance, delete, and exit.
+4. I used loops and conditions to efficiently handle each student-related operation.
+5. I also planned to calculate total marks and percentage to generate an academic report for a student.
+
+### **2. Errors Faced While Writing the Code** ###
+
+1. At first, I was confused about storing student data using nested dictionaries and roll numbers as keys.
+2. I had difficulty deciding how to search for a student when the user enters a roll number.
+3. I needed time to understand how to update only specific fields like branch or semester without losing other data.
+4. I faced some confusion while calculating average marks and determining PASS or FAIL.
+5. I also had to be careful while deleting a record so that the program did not crash if the roll number was not found.

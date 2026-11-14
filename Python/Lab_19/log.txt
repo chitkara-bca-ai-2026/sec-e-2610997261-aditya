@@ -1,0 +1,17 @@
+# **Lab 19 – Student Notes Management System**
+
+### **1. Thinking Process** ###
+
+1. First, I thought about creating a simple menu-driven program that allows a student to save notes and view them later.
+2. I decided to use Python file handling with `open()` and `write()` so the notes could be stored permanently in a text file.
+3. I used the `os.path.exists()` function to check whether the notes file already existed before reading it.
+4. I used a `while` loop so the student can keep using the menu until they choose to exit.
+5. I also used `if-elif-else` conditions to handle different menu options and keep the program easy to understand.
+
+### **2. Errors Faced While Writing the Code** ###
+
+1. Initially, I was confused about the difference between writing to a file and reading from it.
+2. I had difficulty deciding whether to use `w` mode or `a` mode while saving notes.
+3. I faced some confusion in checking whether the file already exists before opening it in read mode.
+4. I spent time understanding how to write proper menu logic using conditions for each choice.
+5. At first, I was confused about how to stop the infinite loop. Later, I used `break` when the user selects the Exit option.
